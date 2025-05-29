@@ -557,9 +557,7 @@ ul {
     display: flex;
 }
 
-.sentence {
-    /* padding-left: 8px; */
-}
+
 
 .highlight {
     background-color: yellow;
