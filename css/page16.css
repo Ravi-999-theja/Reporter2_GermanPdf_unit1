@@ -7,6 +7,7 @@ body {
 #header-container {
     background-color: #2a7b83;
     width: 100%;
+    box-sizing: border-box;
     z-index: 9;
     position: relative;
 }
@@ -280,6 +281,9 @@ textarea {
 /* Mobile fix */
 @media (max-width: 320px) {
 
+    body{
+        min-width:  100%;
+    }
     /* header section */
     .fitch-title {
         margin-left: 10px;
@@ -317,6 +321,9 @@ textarea {
 }
 
 @media (max-width: 768px) {
+    #header-container{
+        width: 130%;
+    }
 
     /* activity 3 */
     .sentence-line {
