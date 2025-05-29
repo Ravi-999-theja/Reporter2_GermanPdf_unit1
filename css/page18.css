@@ -123,6 +123,7 @@
     font-weight: bold;
     text-align: center;
     padding-top: 4px;
+    padding-left: 12px;
 }
 
 .dotted-line1 {
@@ -207,4 +208,8 @@
     font-size: 16px;
     resize: none;
     margin-left: 4px;
+}
+
+#ol_items li::marker{
+    font-weight: bold;
 }
