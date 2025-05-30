@@ -140,10 +140,8 @@ input[type="checkbox"]:checked::after {
 }
 
 /* Responsive tweaks */
-
 @media (min-width: 992px) {
     .col-lg-4 {
-        /* flex: 0 0 auto; */
         width: 33%;
         padding: 0px;
         flex-direction: column;
